@@ -134,11 +134,11 @@
 
         <div class="container contact" id="contact">
             <h1>Contact</h1>
-            <form name="cform" action="#" method="post" onsubmit="return sub();">
+            <form id="contactform" name="cform">
                 <input type="text"  name="name" id="name" placeholder="Name">
                 <input type="text" id="phone" placeholder="Mobile Number">
                 <input type="email" id="email" placeholder="xyz@gmail.com">
-                <textarea name="message" cols="5" rows="5" placeholder="Message"></textarea>
+                <textarea name="message" cols="5" rows="5" id="message" placeholder="Message"></textarea>
                 <input type="submit">
             </form>
         </div>
@@ -147,6 +147,9 @@
             <hr>
             <p>2020 Copyright. All Rights Reserved</p>
         </footer>
+        <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase.js"></script>
+        
+        <!--<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script> -->
         <script src="js/script.js"></script>
     </body>
 </html>
