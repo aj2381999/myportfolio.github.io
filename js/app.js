@@ -1,3 +1,4 @@
+//contact form
 var firebaseConfig = {
     apiKey: "AIzaSyB6W4RawmmsNV17rhyYGe7Vlu41OQQgfL8",
     authDomain: "aj-portfolio-b2754.firebaseapp.com",
@@ -41,3 +42,4 @@ function saveContactInfo(name, email, message) {
     message: message,
   });
 }
+
